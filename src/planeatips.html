@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Planea Vida | Impactando Vidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="d-flex " id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-light border-right d-lg-none" id="sidebar-wrapper">
+            <div class="sidebar-heading">Start Bootstrap </div>
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <!-- Navbar Content  -->
+            <header class="container-fluid px-0">
+                <nav class="navbar navbar-expand-lg navbar-white bg-white pb-0 fixed-top" id="nav">
+                    <div class="container justify-content-left">
+                        <button class="btn d-lg-none " id="menu-toggle">
+                            <img src="http://www.oitsa.com.mx/wp-content/themes/oitsa/assets/icons/hamburguer.svg"
+                                alt="">
+                        </button>
+
+                        <a class="navbar-brand d-none d-lg-block" href="/src/index.html">
+                            <img src="./assets/img/svg/logo.svg" class="d-block w-100 " alt="Planea Vida Logo"></a>
+
+                        <div class="col pl-0 mr-4 text-center d-lg-none">
+                            <a class="navbar-brand" href="/src/index.html">
+                                <img src="./assets/img/svg/logo.svg" class="d-block w-100 " alt="Planea Vida Logo"></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <ul class="navbar-nav nav-font ">
+                                    <li class="nav-item ">
+                                        <a class="nav-link font-azul " href="/src/unete.html">ÚNETE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-azul" href="/src/soluciones.html">SOLUCIONES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-azul" href="/src/planeatips.html">PLANEATIPS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-azul pr-0" href="/src/contacto.html">CONTACTO</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header><!-- /#Navbar-content  -->
+
+            <!-- Join and contact us section Desktop -->
+            <section class="container d-none d-lg-block mt-6">
+                <aside class="row justify-content-end ">
+                    <div class="col-auto ">
+                        <div class="row">
+                            <div class="col-2 px-0">
+                                <img src="/src/assets/img/svg/telefono.svg" alt="">
+                            </div>
+                            <div class="col-10 p-2 text-center"><a class="font-naranja align-middle" href="#">
+                                    <p>T. +52 55 5555 5555</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="row">
+                            <div class="col-2 px-0">
+                                <img src="/src/assets/img/svg/whatsapp.svg" alt="">
+                            </div>
+                            <div class="col-10 py-2 px-0 text-center"><a class="font-naranja " href="#">
+                                    <p>W. +52 55 5555 5555</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/src/unete.html" class="btn btn-secondary naranja rounded-0 border-0 text-white ">ÚNETE
+                            A
+                            NUESTRO
+                            EQUIPO</a>
+                    </div>
+                </aside>
+            </section><!-- /#Join-and-contact-us-section-Desktop -->
+
+            <!-- Join and contact us section Mobile -->
+            <section class="container-fluid gris mt-6-1 d-block d-lg-none" id="btn-nav">
+                <aside class="row justify-content-center  ">
+                    <div class="col-auto py-2 d-block d-lg-none ">
+                        <a href="/src/unete.html" class="btn btn-secondary naranja rounded-0 border-0 text-white ">ÚNETE
+                            A
+                            NUESTRO
+                            EQUIPO</a>
+                    </div>
+                </aside>
+            </section><!-- /#Join and-contact-us-section-Mobile -->
+
+            <!-- Section Header Image -->
+            <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <picture>
+                                <img src="./assets/img/desktop/planeavida-planeavida-header-1200x300.jpg"
+                                    class="d-lg-block d-none d-xs-none w-100" alt="...">
+                            </picture>
+                            <picture>
+                                <img src="./assets/img/tablet/planeavida-planeatips-header-768x300.jpg"
+                                    class="d-sm-block d-none d-lg-none w-100" alt="...">
+                            </picture>
+                            <picture>
+                                <img src="./assets/img/mobile/planeavida-planeavida-header-400x180.jpg"
+                                    class="d-xs-block d-sm-none w-100" alt="...">
+                            </picture>
+
+                            <div class="carousel-caption py-0 align-text-bottom">
+                                <p class="h1 mb-0 d-lg-block d-none d-xs-none">PLANEATIPS</p>
+                                <p class="h2 mb-0 d-sm-block d-none d-lg-none">PLANEATIPS</p>
+                                <p class="h4 mb-0 d-xs-block d-sm-none">PLANEATIPS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #/Section-Header-Image -->
+
+            <section class="py-3 py-md-4">
+                <div class="container ">
+                    <div class="row py-0 ">
+                        <div class="col-12 col-md-4 text-center">
+                            <div class="card border-0 text-center">
+                                <picture>
+                                    <img src="/src/assets/img/desktop/planeavida-notablog-01-370x360.jpg"
+                                        class="d-lg-block d-none d-xs-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/tablet/planeavida-notablog-01-240x230.jpg"
+                                        class="d-sm-block d-none d-lg-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/mobile/planeavida-notablog-01-340x240.jpg"
+                                        class="d-xs-block d-sm-none w-100" alt="...">
+                                </picture>
+
+                                <div class="d-md-block">
+
+                                    <a
+                                        class="btn btn-secondary  mn-t azul font-naranja rounded-0 border-0 py-1 px-5 font-naranja font-weight-bolder">LOREM
+                                        IPSUM</a>
+                                </div>
+
+                                <div class="card-body px-0">
+                                    <div class="text-center">
+                                        <p class="card-title text-muted nav-font font-weight-bolder mb-0">NOTA 1</p>
+                                        <p class="text-muted ">DD | MM | YYYY</p>
+                                    </div>
+                                    <div class="border-top border-bottom py-4 ">
+                                        <p class="card-text font-Literata text-left">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 ">
+                            <div class="card border-0 text-center">
+                                <picture>
+                                    <img src="/src/assets/img/desktop/planeavida-notablog-02-770x360.jpg"
+                                        class="d-lg-block d-none d-xs-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/tablet/planeavida-notablog-02-490x230.jpg"
+                                        class="d-sm-block d-none d-lg-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/mobile/planeavida-notablog-02-340x240.jpg"
+                                        class="d-xs-block d-sm-none w-100" alt="...">
+                                </picture>
+                                <div class="d-md-block">
+                                       
+                                        <a class="btn btn-secondary  mn-t azul font-naranja rounded-0 border-0 py-1 px-5 font-naranja font-weight-bolder">LOREM
+                                            IPSUM</a>
+                                    </div>
+                                <div class="card-body px-0">
+                                    <div class="text-center">
+                                        <p class="card-title text-muted nav-font font-weight-bolder mb-0">NOTA 2</p>
+                                        <p class="text-muted ">DD | MM | YYYY</p>
+                                    </div>
+                                    <div class="border-top border-bottom py-4 ">
+                                        <p class="card-text font-Literata text-left">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-1">
+                <div class="container py-0">
+                    <div class="row ">
+                        <div class="col-12 col-md-4  ">
+                            <div class="card border-0 ">
+                                <picture>
+                                    <img src="/src/assets/img/desktop/planeavida-notablog-03-370x180.jpg"
+                                        class="d-lg-block d-none d-xs-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/tablet/planeavida-notablog-03-370x180.jpg"
+                                        class="d-sm-block d-none d-lg-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/mobile/planeavida-notablog-03-370x180.jpg"
+                                        class="d-xs-block d-sm-none w-100" alt="...">
+                                </picture>
+                                <div class="card-body px-0">
+                                    <div class="text-center">
+                                        <p class="card-title text-muted nav-font font-weight-bolder mb-0">NOTA 3</p>
+                                        <p class="text-muted ">DD | MM | YYYY</p>
+                                    </div>
+                                    <div class="border-top border-bottom py-4 ">
+                                        <p class="card-text font-Literata">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="text-left pt-4 pb-1">
+                                        <a class="btn btn-secondary azul rounded-0 border-0 font-naranja font-weight-bolder px-4"
+                                            href="/src/notablog.html">LOREM
+                                            IPSUM</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <div class="card border-0">
+                                <picture>
+                                    <img src="/src/assets/img/desktop/planeavida-notablog-04-370x180.jpg"
+                                        class="d-lg-block d-none d-xs-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/tablet/planeavida-notablog-04-240x115.jpg"
+                                        class="d-sm-block d-none d-lg-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/mobile/planeavida-notablog-04-370x180.jpg"
+                                        class="d-xs-block d-sm-none w-100" alt="...">
+                                </picture>
+                                <div class="card-body px-0">
+                                    <div class="text-center">
+                                        <p class="card-title text-muted nav-font font-weight-bolder mb-0">NOTA 4</p>
+                                        <p class="text-muted ">DD | MM | YYYY</p>
+                                    </div>
+                                    <div class="border-top border-bottom py-4 ">
+                                        <p class="card-text font-Literata">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="text-left pt-4 pb-1">
+                                        <a class="btn btn-secondary azul rounded-0 border-0 font-naranja font-weight-bolder px-4"
+                                            href="/src/notablog.html">LOREM
+                                            IPSUM</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card border-0">
+                                <picture>
+                                    <img src="/src/assets/img/desktop/planeavida-notablog-05-370x180.jpg"
+                                        class="d-lg-block d-none d-xs-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/tablet/planeavida-notablog-05-240x115.jpg"
+                                        class="d-sm-block d-none d-lg-none w-100" alt="...">
+                                </picture>
+                                <picture>
+                                    <img src="./assets/img/mobile/planeavida-notablog-05-340x180.jpg"
+                                        class="d-xs-block d-sm-none w-100" alt="...">
+                                </picture>
+                                <div class="card-body px-0">
+                                    <div class="text-center">
+                                        <p class="card-title text-muted nav-font font-weight-bolder mb-0">NOTA 5</p>
+                                        <p class="text-muted ">DD | MM | YYYY</p>
+                                    </div>
+                                    <div class="border-top border-bottom py-4 ">
+                                        <p class="card-text font-Literata">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="text-left pt-4 pb-1">
+                                        <a class="btn btn-secondary azul rounded-0 border-0 font-naranja font-weight-bolder px-4"
+                                            href="/src/notablog.html">LOREM
+                                            IPSUM</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container py-2">
+                    <div class="row ">
+                        <div class="col-8 offset-2 border-top pt-3">
+                            <nav aria-label="Page navigation example font-Futura">
+                                <ul class="pagination justify-content-center font-Futura font-weight-bolder ">
+
+                                    <li class="page-item"><a class="page-link font-azul border-0" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link font-azul border-0" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link font-azul border-0" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link font-azul border-0" href="#">...</a></li>
+                                    <li class="page-item"><a class="page-link font-azul border-0" href="#">7</a></li>
+                                    <li class="page-item"><a class="page-link font-azul border-0" href="#">></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Content -->
+            <footer class="pt-5 pb-4 azul ">
+                <div class="container font-Futura py-1">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="/src/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/src/unete.html">ÚNETE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/src/soluciones.html">SOLUCIONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/src/planeatips.html">PLANEATIPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/src/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="social-section text-center py-4 font-Futura">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item text-white">SÍGUENOS</li>
+                        <li class="list-inline-item"><a class="btn-floating btn-li" href="#"><img
+                                    src="/src/assets/img/svg/linkedin.svg" alt=""></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-fb" href="#"><img
+                                    src="/src/assets/img/svg/facebook.svg" alt=""></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-tw" href="#"><img
+                                    src="/src/assets/img/svg/instagram.svg" alt=""></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="container ">
+                    <ul class="nav justify-content-center ">
+                        <li class="nav-item">
+                            <p class="font-naranja">© 2019 NEQUE PORRO QUISQUAM EST QUI | </p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="font-naranja p-1" href="/src/avisoprivasidad.html"> Aviso de Privacidad | </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="font-naranja" href="/src/avisoprivasidad.html"> Privacidad de Datos</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+            <!--End footer Content -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
