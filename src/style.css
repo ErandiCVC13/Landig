@@ -99,13 +99,14 @@
 .heigth-aside{
   height: 2.5rem;
 }
+
 body {
     overflow-x: hidden;
   }
   
   
   #sidebar-wrapper {
-    min-height: 100vh;
+    min-height: 100px;
     margin-left: -15rem;
     -webkit-transition: margin .25s ease-out;
     -moz-transition: margin .25s ease-out;
@@ -133,6 +134,7 @@ body {
   @media (min-width: 992px) {
     #sidebar-wrapper {
       margin-left: 0;
+      
     }
   
     #page-content-wrapper {

@@ -15,18 +15,21 @@
 <body>
     <div class="d-flex " id="wrapper">
         <!-- Sidebar -->
-        <div class="bg-light border-right d-lg-none" id="sidebar-wrapper">
-            <div class="sidebar-heading">Start Bootstrap </div>
+        <div class="bg-light border-right d-lg-none " id="sidebar-wrapper">
+            <div class="sidebar-heading"><button type="button" class="close" aria-label="Close" id="close">
+                    <span aria-hidden="true">&times;</span>
+                </button> </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+                <a href="./index.html" class="list-group-item list-group-item-action bg-light">INICIO</a>
+                <a href="./unete.html" class="list-group-item list-group-item-action bg-light">ÚNETE</a>
+                <a href="./soluciones.html" class="list-group-item list-group-item-action bg-light">SOLUCIONES</a>
+                <a href="./planeatips.html" class="list-group-item list-group-item-action bg-light">PLANEATIPS</a>
+                <a href="contacto.html" class="list-group-item list-group-item-action bg-light">CONTACTO</a>
+
             </div>
-        </div>
-        <!-- /#sidebar-wrapper -->
+
+        </div><!-- /#sidebar-wrapper -->
+
         <!-- Page Content -->
         <div id="page-content-wrapper">
 
@@ -77,7 +80,8 @@
                             <div class="col-2 px-0">
                                 <img src="./assets/img/svg/telefono.svg" alt="">
                             </div>
-                            <div class="col-10 p-2 text-center"><a class="font-naranja align-middle" href="#">
+                            <div class="col-10 p-2 text-center font-size-unete"><a class="font-naranja align-middle"
+                                    href="#">
                                     <p>T. +52 55 5555 5555</p>
                                 </a>
                             </div>
@@ -85,17 +89,18 @@
                     </div>
                     <div class="col-auto">
                         <div class="row">
-                            <div class="col-2 px-0">
+                            <div class="col-2 pl-2">
                                 <img src="./assets/img/svg/whatsapp.svg" alt="">
                             </div>
-                            <div class="col-10 py-2 px-0 text-center"><a class="font-naranja " href="#">
+                            <div class="col-10 py-2 px-0 text-center font-size-unete"><a class="font-naranja " href="#">
                                     <p>W. +52 55 5555 5555</p>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
-                        <a href="./unete.html" class="btn btn-secondary font-size-unete naranja rounded-0 border-0 text-white ">ÚNETE
+                    <div class="col-auto pl-0">
+                        <a href="./unete.html"
+                            class="btn btn-secondary font-size-unete naranja rounded-0 border-0 text-white ">ÚNETE
                             A
                             NUESTRO
                             EQUIPO</a>
@@ -296,47 +301,51 @@
                                     <input type="text" class="form-control rounded-0 " placeholder="*Primer Nombre">
                                 </div>
                                 <div class="col-12 col-md-3 py-2">
-                                    <input type="text" class="form-control rounded-0 " placeholder="Segundo Nombre">
+                                    <input type="text" class="form-control rounded-0 "
+                                        placeholder="*Correo electrónico">
                                 </div>
                                 <div class="col-12 col-md-3 py-2">
-                                    <input type="text" class="form-control rounded-0 " placeholder="*Apellido Paterno">
+                                    <input type="text" class="form-control rounded-0 " placeholder="*Celular">
                                 </div>
 
                             </div>
                         </form>
                     </div>
                     <div class="col-12">
-                        <a class="btn btn-secondary mb-1 naranja rounded-0 border-0 py-2 px-4 boldfont"
-                            href="/src/unete.html">CONTINUAR</a>
+                        <a class="btn btn-secondary mb-1 azul font-naranja rounded-0 border-0 py-2 px-4 boldfont"
+                            href="./thankpage.html">LOREM IPSUM</a>
                         <p class="font-Literata text-dark">*Campos Obligatorios</p>
                     </div>
                 </div>
             </section><!-- /#Section-Join-form -->
 
             <!-- Footer Content -->
-            <footer class="pt-5 pb-4 azul ">
-                <div class="container font-Futura py-1">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link text-white " href="./index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./unete.html">ÚNETE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./soluciones.html">SOLUCIONES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./planeatips.html">PLANEATIPS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./contacto.html">CONTACTO</a>
-                        </li>
-                    </ul>
+            <footer class="pt-4 pb-3 azul ">
+                <div class="container font-Futura py-0">
+                    <div class="row"><div class="col-12">
+                            <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white font-size-unete" href="./index.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white font-size-unete" href="./unete.html">ÚNETE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white font-size-unete" href="./soluciones.html">SOLUCIONES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white font-size-unete" href="./planeatips.html">PLANEATIPS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white font-size-unete" href="./contacto.html">CONTACTO</a>
+                                    </li>
+                                </ul>
+                    </div></div>
+                    
 
                 </div>
 
-                <div class="social-section text-center py-4 font-Futura">
+                <div class="social-section text-center py-3 font-Futura font-size-unete">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item text-white">SÍGUENOS</li>
                         <li class="list-inline-item"><a class="btn-floating btn-li" href="#"><img
@@ -348,7 +357,7 @@
                     </ul>
                 </div>
 
-                <div class="container ">
+                <div class="container font-size-unete ">
                     <ul class="nav justify-content-center ">
                         <li class="nav-item">
                             <p class="font-naranja">© 2019 NEQUE PORRO QUISQUAM EST QUI | </p>
