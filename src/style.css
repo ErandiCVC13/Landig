@@ -60,18 +60,44 @@
     color: #E08C37 !important;
 }
 
+.naranja:hover{
+  background-color: #c16716 !important;
+}
+
+
+
+
+
 .heigth-img-carousel{
     height: 354px;
     width: 100%;
 }
 
 .azul{
-    background-color: #194052
+    background-color: #194052;
     
+    color: #fff !important;
+}
+
+.nav-item>a:hover{
+  color:  #11607c !important;
+}
+
+.azul-f{
+  background-color: #194052;
+  
+  
+}
+
+.azul:hover{
+  background-color: #11607c;
+  color: #fff !important;
+  
 }
 
 .naranja{
-    background-color: #E08C37
+    background-color: #E08C37;
+    color:#fff !important;
 }
 
 .gris{
